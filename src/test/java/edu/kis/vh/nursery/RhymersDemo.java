@@ -11,7 +11,7 @@ class RhymersDemo {
         testRhymers(factory);
 
     }
-
+    // TODO: Method testRhymers() is too long. Extract method from loops to remove unnecessary code.
     private static void testRhymers(Rhymersfactory factory) {
         DefaultCountingOutRhymer[] rhymers = {factory.getStandardRhymer(), factory.getFalseRhymer(),
                 factory.getFIFORhymer(), factory.getHanoiRhymer()};
